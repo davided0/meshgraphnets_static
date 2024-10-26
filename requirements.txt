@@ -1,0 +1,4 @@
+datasets==3.0.2
+tensorboard==2.14.0
+torch==2.4.1
+torch-geometric==2.6.1

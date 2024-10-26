@@ -1,0 +1,41 @@
+{
+    "device": "cuda",
+    
+    "dataset_path": "davide-d/simple_lattice_cell_samples_2d",
+    "training_groups": [
+      "circles",
+      "cubic_chiral",
+      "curved",
+      "curved_diamond",
+      "curved_plus",
+      "diamond",
+      "square",
+      "squared_diamond"
+    ],
+    "extra_groups": [
+      "hinge",
+      "cubic_chiral_thick"
+    ],
+    "train_test_val_split": [0.6, 0.2, 0.2],
+  
+    "edge_augmentation": 0.2,
+    "simulation_coords": true,
+  
+    "num_epochs": 5000,
+    "loss": "mse",
+  
+    "batch_size": 1,
+    "initial_lr": 1e-4,
+    "decay_steps": 125,
+    "decay_rate": 0.1,
+    "min_lr": 1e-6,
+  
+    "latent_size": 128,
+    "dropout_rate": 0.005,
+    "num_message_passing_steps": 15,
+  
+    "log_folder": "run/log",
+    "dataset_save_path": "run/cached_dataset.pt",
+    "checkpoint_save_path": "run/checkpoint.pt",
+    "checkpoint_freq": 1
+  }

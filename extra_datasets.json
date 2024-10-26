@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Out-of-range group",
+        "path": "davide-d/simple_lattice_cell_samples_2d",
+        "group": "cubic_chiral_thick"
+    },
+    {
+        "name": "Unseen group",
+        "path": "davide-d/simple_lattice_cell_samples_2d",
+        "group": "hinge"
+    }
+]
