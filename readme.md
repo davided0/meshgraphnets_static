@@ -175,11 +175,11 @@ The model follows the MeshGraphNets [[1]](#1) architecture, consisting of 15 con
 * Batch size: `1`
 * MSE loss function
 
-![image](readme_files/loss.png)
+![image](readme_files/loss_lin.png)
 
 A further metric is the mean relative error in the peak (destandardized) von Mises stress
 
-![image](readme_files/rel_err.png)
+![image](readme_files/error_lin.png)
 
 # Results
 * Mean relative error of peak von Mises stress (mean over all test-set simulations): `8.0%` (test set)
